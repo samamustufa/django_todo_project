@@ -7,5 +7,5 @@ urlpatterns = [
     path('complete/<int:todo_id>', views.complete_todo, name='complete_todo'),
     path('delete/<int:todo_id>', views.delete_todo, name='delete_todo'),
     # path('todo/edit/<int:todo_id>', views.edit_todo, name='edit_todo'),
-    # path('todo/update/<int:todo_id>', views.update_todo, name='update_todo'),
+    # path('todo/update/<int:todo_id>', views.update_todo, name='update_todo')
 ]
